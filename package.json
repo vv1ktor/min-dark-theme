@@ -1,0 +1,36 @@
+{
+  "name": "min-dark-vscode",
+  "displayName": "min-dark-vscode",
+  "description": "Personalized min dark theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Min Dark (Solid)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/min-dark-solid-color-theme.json"
+      },
+      {
+        "label": "Min Dark (Blurred)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/min-dark-blurred-color-theme.json"
+      },
+      {
+        "label": "Min Light (Solid)",
+        "uiTheme": "vs",
+        "path": "./themes/min-light-solid-color-theme.json"
+      },
+      {
+        "label": "Min Light (Blurred)",
+        "uiTheme": "vs",
+        "path": "./themes/min-light-blurred-color-theme.json"
+      }
+    ]
+  }
+}
