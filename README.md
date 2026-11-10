@@ -17,6 +17,9 @@ The Blurred variants are meant for setups that add window transparency or blur t
 
 ## Install
 
+> [!NOTE]
+> Publishing to the VS Code Marketplace and Open VSX (used by Cursor) is in progress. Until then, install from source:
+
 ```sh
 git clone https://github.com/vv1ktor/min-dark-theme.git
 cd min-dark-theme
