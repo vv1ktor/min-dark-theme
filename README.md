@@ -1,16 +1,29 @@
-# min-dark-vscode README
+# Min Dark
 
-## Working with Markdown
+A minimal VS Code theme, ported from [zed-min-theme](https://github.com/phibr0/zed-min-theme) by phibr0, which is itself inspired by Miguel Solorio's [Min Theme](https://github.com/miguelsolorio/min-theme).
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Variants
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+| Theme | Description |
+| --- | --- |
+| Min Dark (Solid) | Dark, opaque title and status bars |
+| Min Dark (Blurred) | Dark, translucent title and status bars |
+| Min Light (Solid) | Light, opaque title and status bars |
+| Min Light (Blurred) | Light, translucent title and status bars |
 
-## For more information
+The Blurred variants are meant for setups that add window transparency or blur to VS Code.
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Install
 
-**Enjoy!**
+```sh
+git clone https://github.com/vv1ktor/min-dark-vscode.git
+cd min-dark-vscode
+npx @vscode/vsce package
+code --install-extension min-dark-vscode-0.0.1.vsix
+```
+
+Then pick a variant: `Cmd/Ctrl+K Cmd/Ctrl+T`.
+
+## License
+
+[MIT](LICENSE)

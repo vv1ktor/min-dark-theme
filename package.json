@@ -1,9 +1,14 @@
 {
   "name": "min-dark-vscode",
-  "displayName": "min-dark-vscode",
-  "description": "Personalized min dark theme",
+  "displayName": "Min Dark",
+  "description": "A minimal dark and light theme for VS Code, with solid and blurred variants.",
   "version": "0.0.1",
   "publisher": "vv1ktor",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vv1ktor/min-dark-vscode.git"
+  },
   "engines": {
     "vscode": "^1.75.0"
   },
