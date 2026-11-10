@@ -18,8 +18,8 @@ The Blurred variants are meant for setups that add window transparency or blur t
 ## Install
 
 ```sh
-git clone https://github.com/vv1ktor/min-dark-vscode.git
-cd min-dark-vscode
+git clone https://github.com/vv1ktor/min-dark-theme.git
+cd min-dark-theme
 npx @vscode/vsce package
 code --install-extension min-dark-vscode-0.0.1.vsix
 ```
