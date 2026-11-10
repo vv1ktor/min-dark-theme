@@ -2,6 +2,8 @@
 
 A minimal VS Code theme, ported from [zed-min-theme](https://github.com/phibr0/zed-min-theme) by phibr0, which is itself inspired by Miguel Solorio's [Min Theme](https://github.com/miguelsolorio/min-theme).
 
+![Min Dark screenshot](assets/screenshot.webp)
+
 ## Variants
 
 | Theme | Description |
