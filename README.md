@@ -18,16 +18,14 @@ The Blurred variants are meant for setups that add window transparency or blur t
 ## Install
 
 > [!NOTE]
-> Publishing to the VS Code Marketplace and Open VSX (used by Cursor) is in progress. Until then, install from source:
+> Publishing to the VS Code Marketplace and Open VSX (used by Cursor) is in progress. Until then, install the prebuilt extension from the [latest release](https://github.com/vv1ktor/min-dark-theme/releases/latest):
 
 ```sh
-git clone https://github.com/vv1ktor/min-dark-theme.git
-cd min-dark-theme
-npx @vscode/vsce package
-code --install-extension min-dark-vscode-0.0.1.vsix
+curl -fsSLO https://github.com/vv1ktor/min-dark-theme/releases/latest/download/min-dark-vscode.vsix
+code --install-extension min-dark-vscode.vsix
 ```
 
-Then pick a variant: `Cmd/Ctrl+K Cmd/Ctrl+T`.
+For Cursor, use `cursor --install-extension min-dark-vscode.vsix`. Then pick a variant: `Cmd/Ctrl+K Cmd/Ctrl+T`.
 
 ## License
 
